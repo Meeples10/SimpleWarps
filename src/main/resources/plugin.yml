@@ -1,0 +1,40 @@
+name: SimpleWarps
+main: io.github.meeples10.simplewarps.Main
+version: %PROJECT_VERSION%
+author: Meeples10
+description: %PROJECT_DESCRIPTION%
+api-version: 1.19
+commands:
+  warp:
+    description: Warp to a location.
+    usage: /warp <name>
+    permission: simplewarps.warp
+    default: true
+  warps:
+    description: List all available warps.
+    usage: /warps
+    permission: simplewarps.warps
+    default: true
+  setwarp:
+    description: Set a warp.
+    usage: /setwarp <name>
+    permission: simplewarps.setwarp
+    default: op
+  delwarp:
+    description: Delete a warp.
+    usage: /delwarp <name>
+    permission: simplewarps.delwarp
+    default: op
+permissions:
+  simplewarps.warp:
+    description: Allows players to use warps.
+    default: true
+  simplewarps.warps:
+    description: Allows players to list warps.
+    default: true
+  simplewarps.setwarp:
+    description: Allows players to set warps.
+    default: op
+  simplewarps.delwarp:
+    description: Allows players to delete warps.
+    default: op
