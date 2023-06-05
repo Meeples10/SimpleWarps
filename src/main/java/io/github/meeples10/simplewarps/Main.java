@@ -74,15 +74,15 @@ public class Main extends JavaPlugin implements Listener {
             noPermissionMessage = ChatColor.translateAlternateColorCodes('&',
                     messages.getString("no-permission", "You do not have permission to use this command."));
             warpSetMessage = ChatColor.translateAlternateColorCodes('&',
-                    messages.getString("home-set", "Home set: %s"));
+                    messages.getString("warp-set", "Warp set: %s"));
             warpExistsMessage = ChatColor.translateAlternateColorCodes('&',
-                    messages.getString("home-exists", "Home already exists: %s"));
+                    messages.getString("warp-exists", "There is already a warp named %s"));
             warpDeletedMessage = ChatColor.translateAlternateColorCodes('&',
-                    messages.getString("home-deleted", "Home deleted: %s"));
+                    messages.getString("warp-deleted", "Warp deleted: %s"));
             warpNotFoundMessage = ChatColor.translateAlternateColorCodes('&',
-                    messages.getString("home-not-found", "Home not found."));
+                    messages.getString("warp-not-found", "Warp not found."));
             noWarpsMessage = ChatColor.translateAlternateColorCodes('&',
-                    messages.getString("no-homes", "You have no homes."));
+                    messages.getString("no-warps", "There are no warps."));
             teleportMessage = ChatColor.translateAlternateColorCodes('&',
                     messages.getString("teleport", "Teleported to %s"));
         } catch(Exception e) {
