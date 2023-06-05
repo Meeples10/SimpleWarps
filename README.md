@@ -13,7 +13,7 @@ A plugin for creating warps.
 
 ## Configuration
 
-The default configuration file can be found [here](https://github.com/Meeples10/SimpleWarps/blob/master/src/main/resources/config.yml).
+The default configuration file can be found [here](https://github.com/Meeples10/SimpleWarps/blob/main/src/main/resources/config.yml).
 
 |Key|Description|
 |---|-----------|
