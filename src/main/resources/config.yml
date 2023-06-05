@@ -1,0 +1,21 @@
+# If true, a sound will be played when the player is warped.
+play-sound: true
+
+# If play-sound is true, this sound will be played when a player
+# uses /warp. See here for a list of available sounds:
+# https://minecraft.fandom.com/wiki/Sounds.json#Sound_events
+teleport-sound: entity.enderman.teleport
+
+# If true, the player's velocity will be reset when teleporting.
+# This prevents fall damage if the player used /warp while falling.
+reset-velocity: false
+
+messages:
+  players-only: "This command can only be used by players."
+  no-permission: "&cYou do not have permission to use this command."
+  warp-set: "&3ⓘ&7 Warp set: &b%s"
+  warp-exists: "&3ⓘ&7 There is already a warp named &b%s&7"
+  warp-deleted: "&3ⓘ&7 Warp deleted: &b%s&7"
+  warp-not-found: "&3ⓘ&7 Warp not found."
+  no-warps: "&3ⓘ&7 There are no warps."
+  teleport: "&3ⓘ&7 Teleported to &b%s"
